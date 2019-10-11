@@ -79,7 +79,7 @@
     width: 75%;
     margin: 0 auto 30px;
     @media @mobile {
-      width: 100%;
+      width: 90%;
       margin: 30px 5%;
     }
     img {
@@ -96,11 +96,17 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
-
+    @media @mobile {
+      flex-direction: column;
+      align-items: center;
+      margin: 30px 5%;
+      }
     .destination {
       width: 30%;
       margin-bottom: 30px;        
-      
+      @media @mobile {
+        width: 75%
+      }
     }
     
   }
