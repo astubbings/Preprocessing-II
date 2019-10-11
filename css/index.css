@@ -168,14 +168,16 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-header {
+.headerFull {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.headerFull header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  border-bottom: 2px dashed #C0C0C0;
 }
-header a {
+.headerFull header a {
   font-size: 1.8rem;
   text-decoration: none;
   margin: 0 10px;
@@ -246,4 +248,15 @@ header a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #17A2B8;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: #FFFFFF;
 }
